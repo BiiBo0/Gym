@@ -47,7 +47,8 @@ public class DataOfCoach {
         DataOfCoach.num_of_trainee = num_of_trainee;
     }
 
-       private static Map<String ,Integer> name_id = new HashMap<>();
+    private static Map<String ,Integer> name_id = new HashMap<>();
+    
     public static int add_coach(){
         id++;
         return id;
@@ -59,10 +60,12 @@ public class DataOfCoach {
     public static void setId(int id) {
         DataOfCoach.id = id;
     }
+    
     public static void  set_name_id(String name,int id){
         name_id.put(name,id);
     }
+    
    public static int get_id_by_name(String name){
-   return name_id.get(name);
+        return name_id.get(name);
    }
 }

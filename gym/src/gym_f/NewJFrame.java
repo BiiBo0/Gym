@@ -18,7 +18,6 @@ public class NewJFrame extends javax.swing.JFrame {
     public NewJFrame() {  
         initComponents();
       //playSound();
-      
          setLocationRelativeTo(null);
           alarm.setVisible(false);
           jPanel2.setVisible(false);
